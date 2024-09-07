@@ -1,11 +1,9 @@
-/* General page styles */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
     color: #333;
 }
 
-/* Header styling */
 header {
     background-color: #007bff;
     color: #fff;
@@ -13,7 +11,6 @@ header {
     border-radius: 5px;
 }
 
-/* Team section styling */
 .card {
     margin-bottom: 20px;
     border: none;
@@ -21,7 +18,11 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Contact form styling */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
 form {
     background-color: #fff;
     padding: 20px;
@@ -29,7 +30,6 @@ form {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer styling */
 footer {
     font-size: 0.9rem;
     color: #666;
